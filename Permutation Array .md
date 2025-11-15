@@ -6,9 +6,13 @@ To write a program that finds the length of the longest set s[k] defined as s[k]
 The task is to return the maximum size among all such sets.
 ## Algorithm
 1.Create a visited array to mark elements already used in any set.
+
 2.For each index k, if it is not visited, start building the set S[k].
+
 3.Keep moving to nums[current], marking each element as visited.
+
 4.Count each step until you reach a visited element (duplicate).
+
 5.Update the maximum count found so far and return it. 
    
 
