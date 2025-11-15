@@ -5,9 +5,13 @@ To write a program that detects a cycle in a linked list and returns the node wh
 If there is no cycle, the program should return null without modifying the linked list.
 ## Algorithm
 1.Start slow = head and fast = head.
+
 2.Move slow by 1 step and fast by 2 steps until they meet or fast becomes null.
+
 3.If fast becomes null, return null (no cycle).
+
 4.Move slow to head, keep fast at meeting point.
+
 5.Move both one step at a time until they meet — this node is the cycle start. 
 
 ## Program:
