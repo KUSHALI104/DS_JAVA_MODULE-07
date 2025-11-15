@@ -1,13 +1,17 @@
 # Ex7 Removal of Nodes with a Specific Value from a Linked List
-## DATE:
+## DATE:14-11-2025
 ## AIM:
 To write a java  program that removes all nodes from a linked list whose value matches a given integer (val) and returns the new head of the modified linked list.
 
 ## Algorithm
 1..Move head forward until it reaches a node whose value is not equal to val.
+
 2.If the list becomes empty, return null.
+
 3.Start from the new head and traverse the list using a pointer (current).
+
 4.If current.next contains val, skip that node
+
 5.Otherwise, move to the next node. Continue until the end, then return the modified head. 
    
 ## Program:
